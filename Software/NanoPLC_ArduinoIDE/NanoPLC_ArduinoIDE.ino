@@ -194,11 +194,19 @@ void loop() {
   if(!digitalRead(DI4)){
     digitalWrite(DO4,1);
   }
-  if(!digitalRead(DI7)){
+  if(!digitalRead(DI5)){
+    digitalWrite(DO5,1);
+  }
+  if(!digitalRead(DI6)){
+    digitalWrite(DO6,1);
+  }
+  if(!digitalRead(DI8)){
     digitalWrite(DO1,0);
     digitalWrite(DO2,0);
     digitalWrite(DO3,0);
     digitalWrite(DO4,0);
+    digitalWrite(DO5,0);
+    digitalWrite(DO6,0);
   }
   
   delay(250);
